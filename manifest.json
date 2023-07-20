@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "ChatGPT RTL Direction",
+    "version": "1.0",
+    "description": "Change the direction of ChatGPT to RTL.",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://chat.openai.com/*"
+            
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ],
+    "permissions": [
+        "activeTab"
+    ],
+    "icons": {
+        "16": "16x16-icon.png",
+        "128": "128x128-icon.png"
+    }
+}

@@ -15,6 +15,16 @@ const cssStyles = `
   textarea{
     direction:rtl
   }
+
+  
+  ol,ul,li{
+  direction:rtl;
+  }
+
+
+  .markdown ol>li:before{
+  --tw-translate-x: 100%;
+  }
 `;
 
 // Set the CSS styles as the content of the <style> element
